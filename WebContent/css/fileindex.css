@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-repeat: repeat-y;
+	background-image: url(../image/bg1.jpg);
+}
+.box{
+	text-align:center;
+	margin:auto;
+	}
+.filelayout {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:120px;
+	/* [disabled]height: 150px; */
+	overflow: hidden;
+	}
+.filelayout .fileimg {
+	width:100px;
+	height:100px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.filelayout .fileimg:hover {
+	opacity: 0.8;
+}
+.filelayout .filename {
+	word-break: break-all;
+	margin-top: 5px;
+	line-height:120%;
+	height:40px;
+	font-size:16px;
+}
+@media screen and (max-width: 1200px){
+ body{ max-width:1120px}
+}
